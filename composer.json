@@ -1,0 +1,21 @@
+{
+
+    "name": "baneshcr/hello-world-package",
+
+    "description": "A hello world composer private package.",
+
+    "autoload": {
+
+        "psr-4": {
+
+            "Baneshcr\\HelloWorldPackage\\": "src/"
+
+        }
+
+    },
+
+    "minimum-stability": "dev",
+
+    "prefer-stable": true
+
+}
